@@ -1,0 +1,10 @@
+components:
+  - name: api
+    runtime: dotnet
+    target: app-service
+    project: src/Api/Api.csproj
+    test-project: tests/Api.Tests/Api.Tests.csproj
+    dotnet-version: '10.0.x'
+    app-test: ci-dummy-app-test
+    app-prod: ci-dummy-app
+    health-path: /health
