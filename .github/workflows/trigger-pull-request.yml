@@ -21,5 +21,5 @@ jobs:
     secrets: inherit
     # Two people must sign a commit off: the author (pre-push hook) and a
     # reviewer (bin/ci, then bin/signoff). Working alone, require one:
-    with:
-      signoffs: 1
+    # with:
+    #   signoffs: 1
